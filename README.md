@@ -43,8 +43,8 @@ ChienGo est un système de gestion de contenu (CMS) développé spécifiquement 
 **Planning des séances** : CRUD complet - organisation et suivi des séances d'éducation<br>
 **Gestion financière** : Suivi des revenus et tarification<br>
 **Tableau de bord** : Statistiques et aperçu de l'activité<br>
-**Interface responsive** : Mobile, tablet, desktop
-**Pages publiques** : Accueil, Nos séances, Page 404 personnalisée
+**Interface responsive** : Mobile, tablet, desktop<br>
+**Pages publiques** : Accueil, Nos séances, Page 404 personnalisée<br>
 **Interface Administration** : Vue générale des éducateurs, configuration types/prix/durées/couleurs, création de nouveaux types, accès au dashboard éducateur
 
 
