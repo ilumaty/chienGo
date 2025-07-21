@@ -1,7 +1,7 @@
 # ChienGo - Plateforme Educ canin
 
 <div align="center">
-  <img src="public/assets/logo/CG_O_B.svg" alt="ChienGo Logo" width="200"/>
+  <img src="public/assets/logo/CG_O_W.svg" alt="ChienGo Logo" width="200"/>
   
   <p>
     <strong>CMS professionnel pour éducateurs canins</strong><br>
