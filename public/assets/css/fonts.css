@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Wash Your Hand';
+    src: url('../fonts/WashYourHand.woff2') format('woff2'),
+    url('../fonts/WashYourHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pogonia';
+    src: url('../fonts/PogoniaMedium.woff2') format('woff2'),
+    url('../fonts/PogoniaMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* fallback */
+.font-wash {
+    font-family: 'Wash Your Hand', 'Kalam', 'Comic Sans MS', cursive, fantasy;
+    transition: font-family 0.1s ease;
+}
+
+.font-pogonia {
+    font-family: 'Pogonia', 'Inter', system-ui, -apple-system, sans-serif;
+    transition: font-family 0.1s ease;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chiengo/cms",
+  "description": "CMS pour éducateurs canins",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "app\\models\\": "app/models/",
+      "app\\controllers\\": "app/controllers/",
+      "app\\config\\": "app/config/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*"
+  }
+}

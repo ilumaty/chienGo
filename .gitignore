@@ -1,0 +1,288 @@
+
+# -----------------------------------------------------------------------------
+# NODE.JS / FRONTEND
+# -----------------------------------------------------------------------------
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+frontend/build/
+.next/
+out
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------------------------------------------------------------
+# PHP
+# -----------------------------------------------------------------------------
+# Composer
+/vendor/
+composer.lock
+
+# PHP logs
+*.log
+php_errors.log
+
+# PHP cache
+*.cache
+/cache/
+/tmp/
+
+# -----------------------------------------------------------------------------
+# CONFIGURATION SENSIBLE
+# -----------------------------------------------------------------------------
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Configuration files
+config.php
+database.php
+*.config.php
+
+# Keys and certificates
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# -----------------------------------------------------------------------------
+# SYSTÈME D'EXPLOITATION
+# -----------------------------------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# -----------------------------------------------------------------------------
+# ÉDITEURS / IDE
+# -----------------------------------------------------------------------------
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PhpStorm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*#
+.#*
+/auto-save-list
+/tramp
+.\#*
+.org-id-locations
+*_flymake.*
+
+# -----------------------------------------------------------------------------
+# UPLOADS / MÉDIAS UTILISATEURS
+# -----------------------------------------------------------------------------
+/public/uploads/
+/public/images/users/
+/public/files/temp/
+
+# Keep directories
+!/public/uploads/.gitkeep
+!/public/images/users/.gitkeep
+!/public/files/temp/.gitkeep
+
+# -----------------------------------------------------------------------------
+# LOGS ET DEBUG
+# -----------------------------------------------------------------------------
+# General logs
+*.log
+logs/
+/var/log/
+
+# Debug
+/debug/
+xdebug.log
+phpunit.xml
+.phpunit.result.cache
+
+# Error logs
+error.log
+error_log
+access.log
+*.log.*
+
+# -----------------------------------------------------------------------------
+# BASES DE DONNÉES
+# -----------------------------------------------------------------------------
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Dumps SQL
+*.sql
+dumps/
+*.dump
+
+# -----------------------------------------------------------------------------
+# SAUVEGARDES
+# -----------------------------------------------------------------------------
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# -----------------------------------------------------------------------------
+# OUTILS DE BUILD
+# -----------------------------------------------------------------------------
+# Vite
+/dist/
+/.vite/
+
+# Tailwind
+/public/assets/css/tailwind-output.css
+
+# -----------------------------------------------------------------------------
+# DÉPENDANCES EXTERNES
+# -----------------------------------------------------------------------------
+# Local CDN
+/public/assets/libs/
+/public/assets/vendor/
+
+# -----------------------------------------------------------------------------
+# TESTS
+# -----------------------------------------------------------------------------
+/tests/coverage/
+/tests/output/
+.phpunit.result.cache
+phpunit.xml
+coverage/
+.nyc_output/
+
+# -----------------------------------------------------------------------------
+# DOCUMENTATION GÉNÉRÉE
+# -----------------------------------------------------------------------------
+/docs/generated/
+/api-docs/
+/site/
+storybook-static/
+
+# -----------------------------------------------------------------------------
+# FICHIERS TEMPORAIRES DE DÉVELOPPEMENT
+# -----------------------------------------------------------------------------
+# Development notes
+TODO.md
+NOTES.md
+FIXME.md
+CHANGELOG.md
+
+# Temporary test files
+test.php
+debug.php
+temp.php
+*.test.php
+*.spec.php
+
+# -----------------------------------------------------------------------------
+# AUTRES
+# -----------------------------------------------------------------------------
+# Cache directories
+.cache/
+.temp/
+.tmp/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local 
